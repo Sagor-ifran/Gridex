@@ -188,6 +188,7 @@
                         <li><a href="dashboard_download.html"><i class="fas fa-folder-download"></i>download</a></li>
                         <li><a href="dashboard_collection.html"><i class="fas fa-diploma"></i>collection</a></li>
                         <li><a href="dashboard_wishlist.html"><i class="fas fa-heart"></i>wish list</a></li>
+                        <li><a href="dashboard_withdrawal.html"><i class="fas fa-box-usd"></i>withdraw</a></li>
                         <li><a href="dashboard_pricing.html"><i class="fas fa-usd-square"></i>pricing plan</a></li>
                         <li><a href="dashboard_review.html"><i class="fas fa-bahai"></i>review</a></li>
                         <li><a href="dashboard_password_change.html"><i class="fas fa-unlock"></i> Change Password</a>
@@ -308,7 +309,73 @@
                                     </div>
                                 </div>
                                 <div class="col-xl-12">
-                                    <ul class="d-flex flex-wrap">
+                                    <div class="add_product_varient">
+                                        <div class="add_price_varient">
+                                            <h5>variant and price</h5>
+                                            <div class="img">
+                                                <img src="images/variant_img.png" alt="variant" class="img-fluid w-100">
+                                            </div>
+                                            <a href="#" class="common_btn" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">add new variant & price</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="add_product_varient add_product_size_varient">
+                                        <div class="add_price_varient">
+                                            <h5>variant and price</h5>
+                                            <a href="#" class="common_btn" data-bs-toggle="modal"
+                                                data-bs-target="#exampleModal">add new variant</a>
+                                        </div>
+                                        <ul class="d-flex flex-wrap justify-content-between">
+                                            <li>
+                                                <p>size : 52px-1020px</p>
+                                            </li>
+                                            <li>
+                                                <p>$48.00</p>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="common_btn download"><i
+                                                        class="fas fa-download"></i>download</a>
+                                                <a href="#" class="common_btn"><i class="fas fa-edit"></i>edit</a>
+                                                <a href="#" class="common_btn delete"><i
+                                                        class="fas fa-trash"></i>delete</a>
+                                            </li>
+                                        </ul>
+                                        <ul class="d-flex flex-wrap justify-content-between">
+                                            <li>
+                                                <p>size : 52px-1020px</p>
+                                            </li>
+                                            <li>
+                                                <p>$48.00</p>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="common_btn download"><i
+                                                        class="fas fa-download"></i>download</a>
+                                                <a href="#" class="common_btn"><i class="fas fa-edit"></i>edit</a>
+                                                <a href="#" class="common_btn delete"><i
+                                                        class="fas fa-trash"></i>delete</a>
+                                            </li>
+                                        </ul>
+                                        <ul class="d-flex flex-wrap justify-content-between">
+                                            <li>
+                                                <p>size : 52px-1020px</p>
+                                            </li>
+                                            <li>
+                                                <p>$48.00</p>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="common_btn download"><i
+                                                        class="fas fa-download"></i>download</a>
+                                                <a href="#" class="common_btn"><i class="fas fa-edit"></i>edit</a>
+                                                <a href="#" class="common_btn delete"><i
+                                                        class="fas fa-trash"></i>delete</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <ul class="upload_product_form_btn d-flex flex-wrap">
                                         <li><button type="submit" class="common_btn delete"> Delete Product </button>
                                         </li>
                                         <li><button type="submit" class="common_btn">Upload Product</button></li>
@@ -316,6 +383,39 @@
                                 </div>
                             </div>
                         </form>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <form class="modal_form">
+                                        <div class="single_form">
+                                            <label>variant name</label>
+                                            <input type="text" placeholder="Variant Name">
+                                        </div>
+                                        <div class="single_form">
+                                            <label>price</label>
+                                            <input type="text" placeholder="Price">
+                                        </div>
+                                    </form>
+
+                                    <div class="thumbnail_upload_box">
+                                        <label>upload Image</label>
+                                        <div class="img_upload_box">
+                                            <p><i class="fas fa-images" aria-hidden="true"></i></p>
+                                            <label for="upload_11">Drag &amp; Drop or <span>Choose
+                                                    File</span> to
+                                                upload</label>
+                                            <input id="upload_11" type="file" hidden="">
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="modal_closs_btn common_btn"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="common_btn">save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -360,7 +460,7 @@
     <footer class="footer pt_120 xs_pt_100" style="background: url(images/footer_bg.jpg);">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-lg-3 col-xl-4 wow fadeInLeft">
+                <div class="col-md-12 col-lg-3 col-xl-4 wow fadeInUp">
                     <div class="footer_left">
                         <a href="#" class="footer_logo">
                             <img src="images/logo_1.png" alt="logo" class="img-fluid w-100">
@@ -377,7 +477,7 @@
                 </div>
                 <div class="col-lg-9 col-xl-8">
                     <div class="row">
-                        <div class="col-xl-4 col-sm-6 col-md-4  wow fadeInRight">
+                        <div class="col-xl-4 col-sm-6 col-md-4  wow fadeInUp">
                             <div class="footer_right">
                                 <h4>our Products</h4>
                                 <ul>
@@ -389,7 +489,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-4  col-sm-6 col-md-4  wow fadeInLeft">
+                        <div class="col-xl-4  col-sm-6 col-md-4  wow fadeInUp">
                             <div class="footer_right">
                                 <h4>Support & Help</h4>
                                 <ul>
@@ -401,7 +501,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-xl-4  col-sm-6 col-md-4  wow fadeInLeft">
+                        <div class="col-xl-4  col-sm-6 col-md-4  wow fadeInUp">
                             <div class="footer_right">
                                 <h4>terms & conditions</h4>
                                 <ul>

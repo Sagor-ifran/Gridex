@@ -1,3 +1,46 @@
+@media (min-width: 1400px) and (max-width: 1600px) {
+    .container_large {
+        max-width: 1320px;
+    }
+
+    .banner_search ul {
+        margin-right: 0px;
+    }
+
+    .banner_search ul li {
+        width: 27%;
+    }
+
+    .banner_search ul li:last-child {
+        width: 17%;
+    }
+
+    .banner_search .banner_btn {
+        padding-right: 0;
+    }
+
+    .banner_clint_rating {
+        bottom: -625px;
+    }
+
+    .uniqe_product::after {
+        display: none;
+    }
+
+    .trending_item .single_product_text ul {
+        gap: 23px;
+    }
+
+    .single_product_text ul li {
+        width: 46%;
+    }
+
+
+
+}
+
+
+
 @media (min-width: 1200px) and (max-width: 1399.99px) {
 
     /*================================
@@ -13,6 +56,11 @@
 
     .banner {
         padding: 0px 30px;
+    }
+
+    .banner_text h1 {
+        font-size: 50px;
+        max-width: 80%;
     }
 
     .banner_img .img {
@@ -32,7 +80,7 @@
     }
 
     .banner_clint_rating {
-        bottom: -782px;
+        bottom: -710px;
     }
 
     .banner_search .select2-container--default .select2-selection--single .select2-selection__arrow b {
@@ -45,6 +93,14 @@
 
     .banner_search .banner_btn {
         padding-right: 0px;
+    }
+
+    .single_categoris a {
+        padding: 8px 6px;
+    }
+
+    .uniqe_product::after {
+        display: none;
     }
 
     .uniqe_product_details h5::before {
@@ -62,6 +118,11 @@
 
     .trending_item .nextArrow {
         left: 92%;
+    }
+
+    .uniqe_product::before {
+        width: 50px;
+        height: 50px;
     }
 
     /*================================
@@ -114,6 +175,22 @@
         line-height: 30px;
     }
 
+    .single_benefits_item h4 {
+        font-size: 22px;
+    }
+
+    .single_new_video {
+        height: 450px;
+    }
+
+    .single_team {
+        height: 450px;
+    }
+
+    .about_us_img {
+        height: 470px;
+    }
+
     /*================================
         HOME PAGE 3 END
     ================================*/
@@ -144,11 +221,19 @@
         BLOG START
     ================================*/
     .single_blog_list_img {
-        height: auto;
+        height: 385px;
     }
 
     .sidebar_post ul li .text {
         width: 66%;
+    }
+
+    .blog_details_img {
+        height: 385px;
+    }
+
+    .details_single_comment .text {
+        width: 82%;
     }
 
     /*================================
@@ -171,6 +256,10 @@
     /*================================
         PHOTO DETAILS START
     ================================*/
+    .photo_details_img {
+        height: 450px;
+    }
+
     .related_product .prevArrow,
     .related_product .nextArrow {
         left: 1080px;
@@ -178,6 +267,10 @@
 
     .related_product .prevArrow {
         left: 1022px;
+    }
+
+    .video_details_img {
+        height: 460px;
     }
 
     /*================================
@@ -189,15 +282,15 @@
         PRODUCT DETAILS START
     ================================*/
     .product_details_img1 {
-        height: auto;
+        height: 500px;
     }
 
     .product_details_img2 {
-        height: auto;
+        height: 1040px;
     }
 
     .product_details_img3 {
-        height: auto;
+        height: 460px;
     }
 
     .total_revenue li {
@@ -252,6 +345,10 @@
     .cart_list_3 .pro_icon ul {
         flex-wrap: nowrap !important;
         gap: 10px;
+    }
+
+    .dashboard_wishlist .single_product_img {
+        height: 210px;
     }
 
     /*================================
@@ -322,16 +419,29 @@
         left: 92%;
     }
 
+    .uniqe_product::before {
+        display: none;
+    }
+
+    .uniqe_product::after {
+        display: none;
+    }
+
     .single_testimonial p {
-        font-size: 20px;
+        font-size: 18px;
+        line-height: initial;
     }
 
     .testimonial_author::after {
-        top: -220px;
+        top: -200px;
     }
 
     .blog_text {
-        left: 32px;
+        left: 33px;
+    }
+
+    .single_blog {
+        height: 500px;
     }
 
     .subscription_right {
@@ -384,6 +494,15 @@
     /*================================
         HOME PAGE 3 END
     ================================*/
+    .single_new_video {
+        height: 375px;
+    }
+
+    .catagories_3_img {
+        height: 215px;
+    }
+
+
     .testimonials_3::after {
         z-index: -1;
     }
@@ -411,8 +530,12 @@
         margin-top: 44px;
     }
 
+    .about_us_img {
+        height: 650px;
+    }
+
     .single_team {
-        height: auto;
+        height: 580px;
     }
 
     /*================================
@@ -436,7 +559,7 @@
         BLOG START
     ================================*/
     .single_blog_list_img {
-        height: auto;
+        height: 280px;
     }
 
     .sidebar_post ul li .text {
@@ -499,7 +622,7 @@
         BLOG DETAILS START
     ================================*/
     .blog_details_img {
-        height: auto;
+        height: 490px;
     }
 
     .blog_details_form {
@@ -514,6 +637,10 @@
     /*================================
         PHOTO DETAILS START
     ================================*/
+    .photo_details_img {
+        height: 580px;
+    }
+
     .photo_details_right {
         margin-top: 30px;
     }
@@ -537,19 +664,19 @@
         PRODUCT DETAILS START
     ================================*/
     .product_details_img1 {
-        height: auto;
+        height: 640px;
     }
 
     .product_details_img2 {
-        height: auto;
+        height: 1345px;
     }
 
     .product_details_img3 {
-        height: auto;
+        height: 590px;
     }
 
     .purchase_history {
-        margin-top: 30px;
+        margin-top: 50px;
     }
 
     .total_revenue li {
@@ -584,6 +711,15 @@
         width: 218px;
     }
 
+    .author_history,
+    .product_history {
+        margin-top: 50px;
+    }
+
+    .author_photo_collection .single_new_photo {
+        height: 565px;
+    }
+
     /*================================
         AUTHOR PROFILE END
     ================================*/
@@ -612,11 +748,15 @@
     }
 
     .dashboard_wishlist .single_product_img {
-        height: auto;
+        height: 150px;
     }
 
     .dashboard_review .item_review_text {
         width: 80%;
+    }
+
+    .add_product_size_varient ul li p {
+        margin-bottom: 20px;
     }
 
     /*================================
@@ -657,6 +797,7 @@
     .main_menu #navbarNav {
         margin-top: 16px;
         border-top: 1px solid #14224329;
+        border-bottom: 1px solid #14224329;
     }
 
     .main_menu .navbar-nav {
@@ -677,6 +818,11 @@
 
     .menu_right .cart_icon {
         margin-left: 20px;
+    }
+
+    .main_menu .droap_menu {
+        max-height: 250px;
+        left: 20px;
     }
 
     .banner {
@@ -730,6 +876,14 @@
         left: 88%;
     }
 
+    .uniqe_product::before {
+        display: none;
+    }
+
+    .uniqe_product::after {
+        display: none;
+    }
+
     .uniqe_product_details h5::before {
         right: 517px;
     }
@@ -738,8 +892,8 @@
         margin-top: 27px;
     }
 
-    .testimonial_author::after {
-        top: -293px;
+    .single_blog {
+        height: 380px;
     }
 
     .single_testimonial::after {
@@ -780,12 +934,20 @@
     }
 
     .gallery_img {
-        height: auto;
+        height: 280px;
     }
 
     #accordionFlushExample {
         position: relative;
         z-index: 999;
+    }
+
+    .single_top_img {
+        height: 330px;
+    }
+
+    .single_top_img_2 {
+        height: 450px;
     }
 
     .faq {
@@ -832,6 +994,14 @@
         width: 690px;
     }
 
+    .catagories_3_img {
+        height: 215px;
+    }
+
+    .single_new_video {
+        height: 400px;
+    }
+
     .testimonials_3::after {
         z-index: -1;
     }
@@ -855,8 +1025,12 @@
         margin-top: 44px;
     }
 
+    .about_us_img {
+        height: 500px;
+    }
+
     .single_team {
-        height: auto;
+        height: 420px;
     }
 
     /*================================
@@ -874,7 +1048,7 @@
 
     .product_list_view .single_product_img {
         width: 255px;
-        height: auto;
+        height: 315px;
         border-radius: 6px;
     }
 
@@ -895,7 +1069,7 @@
         BLOG START
     ================================*/
     .single_blog_list_img {
-        height: auto;
+        height: 365px;
     }
 
     .blog_sidebar {
@@ -1013,7 +1187,7 @@
         BLOG DETAILS START
     ================================*/
     .blog_details_img {
-        height: auto;
+        height: 365px;
     }
 
     .details_single_comment .text {
@@ -1033,11 +1207,11 @@
         PHOTO DETAILS START
     ================================*/
     .photo_details_img {
-        height: auto;
+        height: 430px;
     }
 
     .video_details_img {
-        height: auto;
+        height: 430px;
     }
 
     .photo_author_left .text {
@@ -1055,6 +1229,10 @@
 
     .related_product .prevArrow {
         left: 600px;
+    }
+
+    .photo_details_left {
+        margin-bottom: 30px;
     }
 
     /*================================
@@ -1087,7 +1265,11 @@
         PRODUCT DETAILS START
     ================================*/
     .product_details_img1 {
-        height: auto;
+        height: 465px;
+    }
+
+    .product_details_img2 {
+        height: 975px;
     }
 
     .key_features span {
@@ -1095,7 +1277,7 @@
     }
 
     .product_details_img3 {
-        height: auto;
+        height: 430px;
     }
 
     .total_revenue li {
@@ -1110,6 +1292,10 @@
     .purchase_history a {
         width: 47%;
         margin: 0px 8px;
+    }
+
+    .product_details_right {
+        margin-top: 50px;
     }
 
     /*================================
@@ -1134,6 +1320,12 @@
 
     .author_asset li {
         width: 157px;
+    }
+
+
+    .author_history,
+    .product_history {
+        margin-top: 50px;
     }
 
     /*================================
@@ -1202,6 +1394,14 @@
         width: 80%;
     }
 
+    .dashboard_wishlist .single_product_img {
+        height: 175px;
+    }
+
+    .add_product_size_varient ul li p {
+        margin-bottom: 20px;
+    }
+
     /*================================
         DASHBOARD END
     ================================*/
@@ -1240,6 +1440,7 @@
     .main_menu #navbarNav {
         margin-top: 16px;
         border-top: 1px solid #14224329;
+        border-bottom: 1px solid #14224329;
     }
 
     .main_menu .navbar-nav {
@@ -1258,6 +1459,12 @@
         margin-left: 20px;
     }
 
+    .main_menu .droap_menu {
+        max-height: 250px;
+        left: 20px;
+    }
+
+
     /* main manu end */
 
 
@@ -1265,11 +1472,7 @@
 
     .banner {
         height: auto;
-        padding: 220px 0px 200px 0px;
-    }
-
-    .banner_text {
-        padding: 0px 12px;
+        padding: 220px 20px 200px 20px;
     }
 
     .banner_text h1 {
@@ -1316,10 +1519,6 @@
         left: 275px;
     }
 
-    .banner_clint_rating::after {
-        left: 12px;
-    }
-
     .banner_clint_rating {
         bottom: -378px;
     }
@@ -1342,11 +1541,11 @@
 
     /* product start */
     .single_product_img {
-        height: auto;
+        height: 265px;
     }
 
     .single_product_text ul li {
-        width: 100%;
+        width: 47%;
     }
 
     /* product end */
@@ -1354,11 +1553,15 @@
 
     /* unique products start */
     .uniqe_product_img {
-        height: auto;
+        height: 335px;
     }
 
     .uniqe_product_details {
         margin-top: 25px;
+    }
+
+    .uniqe_product::after {
+        display: none;
     }
 
     .uniqe_product::before {
@@ -1402,7 +1605,7 @@
     }
 
     .testimonial_author::after {
-        top: -277px;
+        top: -165px;
     }
 
     .testimonials .slick-dots {
@@ -1481,11 +1684,19 @@
     }
 
     .gallery_img {
-        height: auto;
+        height: 315px;
     }
 
     .faq::after {
         z-index: -1;
+    }
+
+    .single_top_img {
+        height: 245px;
+    }
+
+    .single_top_img_2 {
+        height: 330px;
     }
 
     /*================================
@@ -1518,6 +1729,14 @@
 
     .banner_2_text form {
         width: 512px;
+    }
+
+    .catagories_3_img {
+        height: 245px;
+    }
+
+    .single_new_video {
+        height: 425px;
     }
 
     .testimonials_3::after {
@@ -1554,9 +1773,14 @@
         margin-top: 43px;
     }
 
-    .single_team {
-        height: auto;
+    .about_us_img {
+        height: 380px;
     }
+
+    .single_team {
+        height: 650px;
+    }
+
 
     /*================================
         ABOUT END
@@ -1597,7 +1821,7 @@
 
     .product_list_view .single_product_img {
         width: 255px;
-        height: auto;
+        height: 450px;
         border-radius: 6px;
     }
 
@@ -1610,7 +1834,7 @@
         BLOG START
     ================================*/
     .single_blog_list_img {
-        height: auto;
+        height: 270px;
     }
 
     .blog_sidebar {
@@ -1754,7 +1978,7 @@
         BLOG DETAILS START
     ================================*/
     .blog_details_img {
-        height: auto;
+        height: 270px;
     }
 
     .blog_details_text ul li {
@@ -1782,11 +2006,11 @@
         PHOTO DETAILS START
     ================================*/
     .photo_details_img {
-        height: auto;
+        height: 320px;
     }
 
     .video_details_img {
-        height: auto;
+        height: 320px;
     }
 
     .photo_author_left .text {
@@ -1799,6 +2023,10 @@
 
     .related_product h2 {
         font-size: 28px;
+    }
+
+    .photo_details_left {
+        margin-bottom: 30px;
     }
 
     /*================================
@@ -1831,7 +2059,11 @@
         PRODUCT DETAILS START
     ================================*/
     .product_details_img1 {
-        height: auto;
+        height: 330px;
+    }
+
+    .product_details_img2 {
+        height: 700px;
     }
 
     .key_features span {
@@ -1839,7 +2071,11 @@
     }
 
     .product_details_img3 {
-        height: auto;
+        height: 310px;
+    }
+
+    .product_details_right {
+        margin-top: 50px;
     }
 
     .total_revenue li {
@@ -1890,6 +2126,15 @@
 
     .about_author_text ul li {
         width: 100%;
+    }
+
+    .author_photo_collection .single_new_photo {
+        height: 570px;
+    }
+
+    .author_history,
+    .product_history {
+        margin-top: 50px;
     }
 
     /*================================
@@ -1962,7 +2207,7 @@
     }
 
     .dashboard_wishlist .single_product_img {
-        height: auto;
+        height: 265px;
     }
 
     .dashboard_wishlist .product_title {
@@ -1988,6 +2233,14 @@
     .cart_list_3 .pro_icon ul {
         flex-wrap: nowrap !important;
         gap: 10px;
+    }
+
+    .add_price_varient h5 {
+        font-size: 22px;
+    }
+
+    .add_product_size_varient ul li p {
+        margin-bottom: 20px;
     }
 
     /*================================
@@ -2028,9 +2281,15 @@
         padding: 18px 0px;
     }
 
+    .main_menu .droap_menu {
+        max-height: 250px;
+        left: 20px;
+    }
+
     .main_menu #navbarNav {
         margin-top: 16px;
         border-top: 1px solid #14224329;
+        border-bottom: 1px solid #14224329;
     }
 
     .main_menu .navbar-nav {
@@ -2104,8 +2363,7 @@
     }
 
     .banner_clint_rating::before {
-        top: 4px;
-        left: 231px;
+        display: none;
     }
 
     .banner_clint_rating::after {
@@ -2114,6 +2372,10 @@
 
     .banner_clint_rating {
         bottom: -544px;
+    }
+
+    .banner_review {
+        padding-left: 10px;
     }
 
     /* banner end */
@@ -2164,10 +2426,11 @@
     }
 
     .uniqe_product::before {
-        bottom: 148px;
-        right: 16px;
-        width: 60px;
-        height: 60px;
+        display: none;
+    }
+
+    .uniqe_product::after {
+        display: none;
     }
 
     .uniqe_product_details h5::before {
@@ -2277,6 +2540,10 @@
         padding: 93px 0px 100px 0px;
     }
 
+    .gallery_img {
+        height: auto;
+    }
+
     .photo_right_btn {
         align-items: start;
     }
@@ -2287,6 +2554,10 @@
 
     .photo_title {
         line-height: 24px;
+    }
+
+    .single_top_img {
+        height: auto;
     }
 
     .common_pagination .page-link {
@@ -2363,6 +2634,10 @@
         padding: 210px 0px 100px 0px;
     }
 
+    .catagories_3_img {
+        height: auto;
+    }
+
     .single_benefits_item h4 {
         font-size: 20px;
     }
@@ -2415,12 +2690,7 @@
         font-size: 28px;
     }
 
-    .about_us_img_1 {
-        height: auto;
-        margin-bottom: 25px;
-    }
-
-    .about_us_img_2 {
+    .about_us_img {
         height: auto;
     }
 
@@ -2510,7 +2780,7 @@
         BLOG START
     ================================*/
     .single_blog_list_img {
-        height: 300px;
+        height: 215px;
     }
 
     .single_blog_list_text .title {
@@ -2654,10 +2924,6 @@
         right: 50px;
         width: 180px;
         height: 106px;
-    }
-
-    .faq_img {
-        margin-left: 16px;
     }
 
     /*================================
@@ -2812,6 +3078,10 @@
 
     .video_details_img {
         height: auto;
+    }
+
+    .photo_details_left {
+        margin-bottom: 30px;
     }
 
     /*================================
@@ -2986,6 +3256,15 @@
         width: 100%;
     }
 
+    .author_photo_collection .single_new_photo {
+        height: auto;
+    }
+
+    .author_history,
+    .product_history {
+        margin-top: 50px;
+    }
+
     /*================================
         AUTHOR PROFILE END
     ================================*/
@@ -3126,6 +3405,27 @@
     .cart_list_3 .pro_icon ul {
         flex-wrap: nowrap !important;
         gap: 10px;
+    }
+
+    .dashboard_wishlist .single_product_img {
+        height: auto;
+    }
+
+    .add_price_varient h5 {
+        margin-bottom: 40px;
+    }
+
+    .add_price_varient .img {
+        margin: 0px auto 40px;
+    }
+
+    .add_product_size_varient ul li p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .add_product_size_varient ul li a {
+        width: 100%;
     }
 
     /*================================
