@@ -20,7 +20,7 @@
     }
 
     .banner_clint_rating {
-        bottom: -625px;
+        bottom: 60px;
     }
 
     .uniqe_product::after {
@@ -33,6 +33,10 @@
 
     .single_product_text ul li {
         width: 46%;
+    }
+
+    .error_area {
+        padding: 235px 0px 0px 0px;
     }
 
 
@@ -80,7 +84,7 @@
     }
 
     .banner_clint_rating {
-        bottom: -710px;
+        bottom: 80px;
     }
 
     .banner_search .select2-container--default .select2-selection--single .select2-selection__arrow b {
@@ -123,6 +127,10 @@
     .uniqe_product::before {
         width: 50px;
         height: 50px;
+    }
+
+    .error_area {
+        padding: 235px 0px 0px 0px;
     }
 
     /*================================
@@ -210,6 +218,10 @@
         -moz-border-radius: 6px;
         -ms-border-radius: 6px;
         -o-border-radius: 6px;
+    }
+
+    .product_list_view .single_product_img .wishlist {
+        right: 460px;
     }
 
     /*================================
@@ -386,7 +398,7 @@
     }
 
     .banner_clint_rating {
-        bottom: -420px;
+        bottom: -165px;
     }
 
     .banner_img {
@@ -446,6 +458,11 @@
 
     .subscription_right {
         margin-top: 20px;
+    }
+
+    .subscription .section_title h2 {
+        font-size: 32px;
+        line-height: 42px;
     }
 
     /*================================
@@ -548,6 +565,10 @@
     ================================*/
     .product_filter {
         margin-bottom: 25px;
+    }
+
+    .product_list_view .single_product_img .wishlist {
+        right: 620px;
     }
 
     /*================================
@@ -856,7 +877,7 @@
     }
 
     .banner_clint_rating {
-        bottom: -373px;
+        bottom: -160px;
     }
 
     .catagories_bottom_right {
@@ -1058,6 +1079,11 @@
 
     .product_sorting_selector {
         width: 71%;
+    }
+
+    .product_list_view .single_product_img .wishlist {
+        right: 440px;
+        top: 60px;
     }
 
     /*================================
@@ -1520,7 +1546,7 @@
     }
 
     .banner_clint_rating {
-        bottom: -378px;
+        bottom: -122px;
     }
 
     /* banner end */
@@ -1823,6 +1849,10 @@
         width: 255px;
         height: 450px;
         border-radius: 6px;
+    }
+
+    .product_list_view .single_product_img .wishlist {
+        right: 60px;
     }
 
     /*================================
@@ -2371,7 +2401,7 @@
     }
 
     .banner_clint_rating {
-        bottom: -544px;
+        bottom: -130px;
     }
 
     .banner_review {
@@ -2752,9 +2782,9 @@
         height: auto;
     }
 
-    .product_list_view .single_product_img a {
-        top: 40px;
-        left: 40px;
+    .product_list_view .single_product_img .wishlist {
+        right: 50px !important;
+        top: 60px;
     }
 
     .product_list_view .single_product_text {

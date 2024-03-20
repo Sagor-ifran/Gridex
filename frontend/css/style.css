@@ -787,11 +787,27 @@ button {
     width: 20px;
     height: 16px;
     margin-left: 40px;
+    position: relative;
 }
 
-.menu_right .cart_icon:hover,
-.menu_right .cart_icon.active {
+.menu_right .cart_icon:hover img,
+.menu_right .cart_icon.active img {
     filter: invert(34%) sepia(93%) saturate(7075%) hue-rotate(219deg) brightness(103%) contrast(105%);
+}
+
+.menu_right .cart_icon span {
+    position: absolute;
+    display: inline-block;
+    top: -3px;
+    right: -17px;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    color: var(--colorWhite);
+    background: var(--colorPrimary);
 }
 
 .menu_btn {
@@ -1048,9 +1064,10 @@ button {
 
 .banner_clint_rating {
     position: absolute;
-    bottom: -666px;
+    bottom: 80px;
     left: 0px;
     padding-left: 155px;
+    height: auto !important;
 }
 
 .banner_review span i {
@@ -1300,7 +1317,7 @@ button {
     -o-border-radius: 6px 6px 0px 0px;
 }
 
-.single_product_img a {
+.single_product_img .catg {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -1323,9 +1340,39 @@ button {
     -o-border-radius: 100px;
 }
 
-.single_product_img a:hover {
+.single_product_img .catg:hover {
     color: var(--colorWhite);
     background: var(--colorPrimary);
+}
+
+.single_product_img .wishlist {
+    top: 20px;
+    right: 20px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: capitalize;
+    background: var(--colorWhite);
+    color: var(--colorBlack);
+    border-radius: 50%;
+    transition: all linear .3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.single_product_img .wishlist:hover {
+    background: red;
+    color: var(--colorWhite);
 }
 
 .single_product_text {
@@ -3751,9 +3798,14 @@ button {
     -o-border-radius: 6px;
 }
 
-.product_list_view .single_product_img a {
+.product_list_view .single_product_img .catg {
     top: 60px;
     left: 60px;
+}
+
+.product_list_view .single_product_img .wishlist {
+    right: 540px;
+    top: 60px;
 }
 
 .product_list_view .single_product_img {
