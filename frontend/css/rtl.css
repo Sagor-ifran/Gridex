@@ -351,6 +351,22 @@
     left: 30px;
 }
 
+.single_new_photo .wishlist {
+    position: absolute;
+    top: 30px;
+    left: auto;
+    right: 30px;
+    width: 48px;
+    text-align: center;
+    color: red;
+    background: var(--colorWhite);
+    border-radius: 6px;
+}
+
+.single_new_video .wishlist {
+    top: 90px !important;
+}
+
 .faq .section_title {
     text-align: right;
 }

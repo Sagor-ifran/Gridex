@@ -2570,6 +2570,39 @@ button {
     margin-top: 25px;
 }
 
+.single_new_photo .wishlist {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 48px;
+    height: 48px;
+    font-size: 25px;
+    line-height: 52px;
+    text-align: center;
+    color: red;
+    background: var(--colorWhite);
+    border-radius: 6px;
+    transition: all linear .3s;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+
+.single_new_photo .wishlist:hover {
+    background: var(--colorSecondary);
+}
+
+.single_new_video .wishlist {
+    top: 90px;
+}
+
+
 .new_photo_overly {
     position: absolute;
     top: 0;
@@ -3840,7 +3873,6 @@ button {
 /*================================
     PRODUCT PAGE END
 ================================*/
-
 
 
 /*================================
@@ -7287,7 +7319,7 @@ button {
 }
 
 .user_profile {
-    padding: 50px 50px 45px 50px;
+    padding: 50px 25px 45px 25px;
     text-align: center;
     background: var(--lightBg);
     border-radius: 6px;
